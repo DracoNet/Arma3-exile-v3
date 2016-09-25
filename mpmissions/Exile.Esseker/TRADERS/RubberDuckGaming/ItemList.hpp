@@ -1,0 +1,1 @@
+class Exile_Item_RubberDuck						{ quality = 1; price = 5000; sellPrice = 5000; }

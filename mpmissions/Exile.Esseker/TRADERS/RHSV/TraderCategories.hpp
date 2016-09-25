@@ -1,0 +1,140 @@
+class RHSVehicles
+{
+	name = "RHS Vehicles";
+	icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+	items[]=
+	{
+		"rhs_tigr_ffv_3camo_vdv",
+		"rhs_tigr_ffv_vdv",
+		"rhs_tigr_3camo_vdv",
+		"rhs_tigr_vdv",	
+		"rhs_tigr_m_3camo_vdv",
+		"rhs_gaz66_r142_vmf",
+		"rhs_gaz66_repair_vmf",
+		"rhs_gaz66_vmf",
+		"rhs_gaz66_flat_vdv",
+		"rhs_gaz66o_vdv",
+		"rhs_gaz66o_flat_vdv",
+		"rhs_gaz66_ammo_vmf",
+		"rhs_gaz66_vv",
+		"rhs_gaz66_msv",
+		"rhs_gaz66_flat_vmf",
+		"rhs_gaz66_flat_vv",
+		"rhs_gaz66_flat_msv",
+		"rhs_gaz66o_vmf",
+		"rhs_gaz66o_vv",
+		"rhs_gaz66o_msv",
+		"rhs_gaz66o_flat_vmf",
+		"rhs_gaz66o_flat_vv",
+		"rhs_gaz66o_flat_msv",
+		"rhs_gaz66_r142_vdv",
+		"rhs_gaz66_r142_msv",
+		"rhs_gaz66_r142_vv",
+		"rhs_gaz66_repair_vdv",
+		"rhs_gaz66_repair_vv",
+		"rhs_gaz66_repair_msv",
+		"rhsusf_m1025_w",
+		"rhsusf_m1025_w_m2",
+		"rhsusf_m998_w_2dr",
+		"rhsusf_m998_w_4dr",
+		"rhsusf_m998_w_s_2dr_fulltop",
+		"rhsusf_m998_d_s_2dr_fulltop",
+		"rhsusf_m998_w_s_2dr_halftop",
+		"rhsusf_m998_d_s_2dr_halftop",
+		"rhsusf_m998_d_s_4dr_fulltop",
+		"rhsusf_m998_w_s_4dr_fulltop",
+		"rhsusf_m998_d_s_4dr_halftop",
+		"rhsusf_m998_w_s_4dr_halftop",
+		"rhsusf_M1078A1P2_wd_fmtv_usarmy",
+		"rhsusf_M1078A1P2_d_fmtv_usarmy",
+		"rhsusf_M1078A1P2_wd_open_fmtv_usarmy",
+		"rhsusf_M1078A1P2_d_open_fmtv_usarmy",
+		"rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy",
+		"rhsusf_M1078A1P2_d_flatbed_fmtv_usarmy",
+		"rhsusf_M1078A1P2_B_d_fmtv_usarmy",
+		"rhsusf_M1078A1P2_B_wd_fmtv_usarmy",
+		"rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy",
+		"rhsusf_M1078A1P2_B_d_open_fmtv_usarmy",
+		"rhsusf_M1078A1P2_B_wd_flatbed_fmtv_usarmy",
+		"rhsusf_M1078A1P2_B_d_flatbed_fmtv_usarmy",
+		"rhsusf_M1083A1P2_B_M2_d_MHQ_fmtv_usarmy",
+		"rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy",			
+		"rhsusf_rg33_d",
+		"rhsusf_rg33_wd",
+		"rhs_uaz_vmf",
+		"rhs_uaz_open_vmf",
+		"RHS_Ural_Open_Civ_01",
+		"RHS_Ural_Open_Civ_02",
+		"RHS_Ural_Open_Civ_03",
+		"RHS_Ural_MSV_01",
+		"RHS_Ural_VDV_01",
+		"RHS_Ural_VMF_01",
+		"RHS_Ural_VV_01",
+		"RHS_Ural_Flat_MSV_01",
+		"RHS_Ural_Flat_VDV_01",
+		"RHS_Ural_Flat_VMF_01",
+		"RHS_Ural_Flat_VV_01",
+		"RHS_Ural_Open_MSV_01",
+		"RHS_Ural_Open_VDV_01",
+		"RHS_Ural_Open_VMF_01",
+		"RHS_Ural_Open_VV_01",
+		"RHS_Ural_Open_Flat_MSV_01",
+		"RHS_Ural_Open_Flat_VDV_01",
+		"RHS_Ural_Open_Flat_VMF_01",
+		"RHS_Ural_Open_Flat_VV_01",
+		"RHS_Ural_Fuel_MSV_01",
+		"RHS_Ural_Fuel_VDV_01",
+		"RHS_Ural_Fuel_VMF_01",
+		"RHS_Ural_Fuel_VV_01",
+		"rhsusf_m977A4_REPAIR_BKIT_usarmy_wd",
+		"rhsusf_m977A4_AMMO_BKIT_M2_usarmy_wd",
+		"rhsusf_rg33_m2_d",
+		"rhsusf_rg33_m2_wd",
+		"rhsusf_rg33_usmc_d",
+		"rhsusf_rg33_usmc_wd",
+		"rhsusf_rg33_m2_usmc_d",
+		"rhsusf_rg33_m2_usmc_wd",
+		"rhs_typhoon_vdv",	
+	};
+};
+
+class RHSChoppers
+{
+	name = "RHS Helicopters";
+	icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+	items[]=
+	{	
+		"RHS_MELB_AH6M_H",
+		"RHS_MELB_MH6M",		
+		"RHS_CH_47F",
+		"RHS_CH_47F_10",
+		"rhs_ka60_c",
+		"rhs_ka60_grey",
+		"RHS_UH60M",
+		"rhs_UH60M_MEV2_d",
+		"RHS_UH60M_MEV2",	
+		"RHS_UH60M_MEV",
+		"RHS_UH60M_MEV_d",
+		"RHS_Mi8mt_vvs",
+		"RHS_Mi8mt_vvsc",
+		"rhs_Mi8mt_cargo_vvs",
+		"RHS_Mi8mt_Cargo_vdv",
+		"RHS_Mi8amt_civilian",
+		"RHS_Mi8mt_vdv",
+		"RHS_Mi8mt_vv",
+		"RHS_Mi8mt_Cargo_vvsc",
+		"RHS_Mi8mt_Cargo_vv",
+		"rhs_UH1Y_unarmed",
+		"RHS_UH1Y_UNARMED_d"
+	};
+};
+
+class RHSPlanes
+{
+	name = "RHS Planes";
+	icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+	items[] = 
+	{
+		"RHS_C130J"
+	};
+};	
