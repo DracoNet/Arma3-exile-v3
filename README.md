@@ -3,7 +3,7 @@
 ###Mods needed
 
 * [Exile](http://www.exilemod.com/)
-* [A2OP](http://steamcommunity.com/sharedfiles/filedetails/?id=724594534)
+* [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
 * [Esseker](http://steamcommunity.com/sharedfiles/filedetails/?id=498101407)
 * [Zombies And Demons](http://steamcommunity.com/sharedfiles/filedetails/?id=501966277)
 * [HVP](http://www.omnicidal.com/hvp)
@@ -26,7 +26,7 @@
 
 ###Mod Folders
 ```
-@A2OP				= A2OP
+@CUPTerrains-Core	= CUP Terrains - Core
 @Esseker			= Esseker
 @Exile				= Exile
 @ZombiesAndDemons	= Zombies And Demons
@@ -37,7 +37,7 @@
 
 ###StartServer.bat
 ```
--mod=@A2OP;@Esseker;@Exile;@ZombiesAndDemons;@RHSAFRF;@RHSUSAF;@HVP;Kart;Mark;Heli;expansion;
+-mod=@CUPTerrains-Core;@Esseker;@Exile;@ZombiesAndDemons;@RHSAFRF;@RHSUSAF;@HVP;Kart;Mark;Heli;
 ```
 
 ###Edit @ExileServer\config.cfg
