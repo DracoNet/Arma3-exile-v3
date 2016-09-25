@@ -1,4 +1,4 @@
-# Arma3-exile ![Arma 1.62](https://img.shields.io/badge/Arma-1.62-blue.svg?style=plastic) ![Exile 1.0.2](https://img.shields.io/badge/Exile-1.0.2-C72651.svg?style=plastic) ![Build Version 3.0.0](https://img.shields.io/badge/Build_Version-3.0.0-lightgrey.svg?style=plastic) ![Build Status](https://img.shields.io/badge/Build-Testing-yellowgreen.svg?style=plastic)
+# Arma3-exile ![Arma 1.64](https://img.shields.io/badge/Arma-1.64-blue.svg?style=plastic) ![Exile 1.0.2](https://img.shields.io/badge/Exile-1.0.2-C72651.svg?style=plastic) ![Build Version 3.0.0](https://img.shields.io/badge/Build_Version-3.0.0-lightgrey.svg?style=plastic) ![Build Status](https://img.shields.io/badge/Build-Testing-yellowgreen.svg?style=plastic)
 
 ###Mods needed
 
