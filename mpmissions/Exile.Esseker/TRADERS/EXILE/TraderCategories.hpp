@@ -1029,8 +1029,8 @@ class Planes
 		"Exile_Plane_AN2_Green",
 		"Exile_Plane_Ceasar",
 		"Exile_Plane_BlackfishInfantry",
-		"Exile_Plane_BlackfishVehicle",
-		"MV22"
+		"Exile_Plane_BlackfishVehicle"
+		//"MV22"
 	};
 };
 

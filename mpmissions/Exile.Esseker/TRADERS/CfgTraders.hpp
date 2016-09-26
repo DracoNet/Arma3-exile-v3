@@ -14,27 +14,35 @@ class Exile_Trader_Armory
 		"RHSBipodAttachments",
 		"APEXMuzzleAttachments",
 		"RHSMuzzleAttachments",
+		"CUPMuzzleAttachments",
 		"MuzzleAttachments",
+		"CUPOpticAttachments",
 		"OpticAttachments",
 		"APEXOpticAttachments",
 		"RHSOpticAttachments",
 		"Ammunition",
 		"APEXAmmunition",
 		"RHSAmmunition",
+		"CUPAmmunition",
 		"Pistols",
 		"RHSPistols",
+		"CUPPistols",
 		"Shotguns",
 		"SubMachineGuns",
 		"APEXSubMachineGuns",
+		"CUPSubMachineGuns",
 		"LightMachineGuns",
 		"APEXLightMachineGuns",
 		"RHSLightMachineGuns",
+		"CUPLightMachineGuns",
 		"AssaultRifles",
 		"APEXAssaultRifles",
 		"RHSAssaultRifles",
+		"CUPAssaultRifles",
 		"SniperRifles",
 		"APEXSniperRifles",
-		"RHSSniperRifles"
+		"RHSSniperRifles",
+		"CUPSniperRifles"
 	};
 };
 
@@ -53,6 +61,9 @@ class Exile_Trader_SpecialOperations
 		"UAVs",
 		"StaticMGs",
 		"Explosives",
+		"CUPGrenadeLaunchers",
+		"CUPLaunchers",
+		"CUPAmmoForExplosives",
 		"Navigation",
 		"RHSMines"
 	};
@@ -70,13 +81,16 @@ class Exile_Trader_Equipment
 		"Headgear",
 		"APEXHeadgear",
 		"RHSHeadgear",
+		"CUPHeadgear",
 		"Glasses",
 		"Uniforms",
 		"APEXUniforms",
 		"RHSUniforms",
+		"CUPUniforms",
 		"Vests",
 		"APEXVests",
 		"RHSVests",
+		"CUPVests",
 		"Backpacks",
 		"APEXBackpacks",
 		"FirstAid"
@@ -124,7 +138,9 @@ class Exile_Trader_Vehicle
 		"Cars",
 		"Trucks",
 		"RHSVehicles",
-		"MVP"
+		"CUPVehicles",
+		"CUPTracked"
+		//"MVP"
 	};
 };
 
@@ -139,8 +155,10 @@ class Exile_Trader_Aircraft
 	{
 		"Choppers", 
 		"RHSChoppers",
+		"CUPChoppers",
 		"Planes",
-		"RHSPlanes"
+		"RHSPlanes",
+		"CUPPlanes"
 	};
 };
 
@@ -153,7 +171,8 @@ class Exile_Trader_Boat
 	showWeaponFilter = 0;
 	categories[] = 
 	{
-		"Boats"
+		"Boats",
+		"CUPBoats"
 	};
 };
 

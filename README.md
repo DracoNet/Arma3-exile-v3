@@ -1,4 +1,4 @@
-# Arma3-exile ![Arma 1.64](https://img.shields.io/badge/Arma-1.64-blue.svg?style=plastic) ![Exile 1.0.2](https://img.shields.io/badge/Exile-1.0.2-C72651.svg?style=plastic) ![Build Version 3.0.0](https://img.shields.io/badge/Build_Version-3.0.0-lightgrey.svg?style=plastic) ![Build Status](https://img.shields.io/badge/Build-Testing-yellowgreen.svg?style=plastic)
+# Arma3-exile ![Arma 1.64](https://img.shields.io/badge/Arma-1.64-blue.svg?style=plastic) ![Exile 1.0.2](https://img.shields.io/badge/Exile-1.0.2-C72651.svg?style=plastic) ![Build Version 3.0.1](https://img.shields.io/badge/Build_Version-3.0.1-lightgrey.svg?style=plastic) ![Build Status](https://img.shields.io/badge/Build-Development-orange.svg?style=plastic)
 
 ###Mods needed
 
@@ -6,9 +6,12 @@
 * [CUP Terrains - Core](http://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
 * [Esseker](http://steamcommunity.com/sharedfiles/filedetails/?id=498101407)
 * [Zombies And Demons](http://steamcommunity.com/sharedfiles/filedetails/?id=501966277)
-* [HVP](http://www.omnicidal.com/hvp)
 * [RHS: Armed Forces of the Russian Federation](http://www.rhsmods.org/mod/1)
 * [RHS: United States Armed Forces](http://www.rhsmods.org/mod/2)
+* [CBA_A3](http://steamcommunity.com/workshop/filedetails/?id=450814997)
+* [CUP Weapons](http://steamcommunity.com/sharedfiles/filedetails/?id=497660133)
+* [CUP Units](http://steamcommunity.com/sharedfiles/filedetails/?id=497661914)
+* [CUP Vehicles](http://steamcommunity.com/sharedfiles/filedetails/?id=541888371)
 * [InfiStar](http://infistar.de) (Recommended)(Not included)
 
 ###Script used
@@ -20,7 +23,7 @@
 * [patrix87/ExileZ-2](https://github.com/patrix87/ExileZ-2)
 * [StokesMagee/Exile_SM_Towing](https://github.com/StokesMagee/Exile_SM_Towing)
 * [CRE4MPIE/StatusBar](https://github.com/CRE4MPIE/StatusBar)
-
+* Draco Custom!!!
 
 ##Installing
 
@@ -32,12 +35,15 @@
 @ZombiesAndDemons	= Zombies And Demons
 @RHSAFRF			= RHS: Armed Forces of the Russian Federation
 @RHSUSAF			= RHS: United States Armed Forces
-@HVP				= HVP
+@CBA_A3				= CBA_A3
+@CUPWeapons			= CUP Weapons
+@CUPUnits			= CUP Units
+@CUPVehicles		= CUP Vehicles
 ```
 
 ###StartServer.bat
 ```
--mod=@CUPTerrains-Core;@Esseker;@Exile;@ZombiesAndDemons;@RHSAFRF;@RHSUSAF;@HVP;Kart;Mark;Heli;
+-mod=@CUPTerrains-Core;@Esseker;@ZombiesandDemons;@RHSAFRF;@RHSUSAF;@CBA_A3;@CUPWeapons;@CUPUnits;@CUPVehicles;@exile;Kart;Mark;Heli;
 ```
 
 ###Edit @ExileServer\config.cfg

@@ -1182,12 +1182,15 @@ class CfgExileArsenal
 {
 	//#include "TRADERS\Community\ItemList.hpp"
 	#include "TRADERS\EXILE\ItemList.hpp"
-	#include "TRADERS\HVP\ItemList.hpp"
+	//#include "TRADERS\HVP\ItemList.hpp"
 	#include "TRADERS\APEX\ItemList.hpp"
 	#include "TRADERS\RubberDuckGaming\ItemList.hpp"
 	//#include "TRADERS\RZInfection\ItemList.hpp"
 	#include "TRADERS\RHSV\ItemList.hpp"
 	#include "TRADERS\RHSW\ItemList.hpp"
+	#include "TRADERS\CUPV\ItemList.hpp"
+	#include "TRADERS\CUPW\ItemList.hpp"
+	#include "TRADERS\CUPU\ItemList.hpp"
 };
 
 #include "CfgExileCustomCode.hpp"
@@ -2413,12 +2416,15 @@ class CfgTraderCategories
 {
 	//#include "TRADERS\Community\TraderCategories.hpp"
 	#include "TRADERS\EXILE\TraderCategories.hpp"
-	#include "TRADERS\HVP\TraderCategories.hpp"
+	//#include "TRADERS\HVP\TraderCategories.hpp"
 	#include "TRADERS\APEX\TraderCategories.hpp"
 	#include "TRADERS\RubberDuckGaming\TraderCategories.hpp"
 	//#include "TRADERS\RZInfection\TraderCategories.hpp"
 	#include "TRADERS\RHSV\TraderCategories.hpp"
 	#include "TRADERS\RHSW\TraderCategories.hpp"
+	#include "TRADERS\CUPV\TraderCategories.hpp"
+	#include "TRADERS\CUPW\TraderCategories.hpp"
+	#include "TRADERS\CUPU\TraderCategories.hpp"
 };
 
 class CfgTraders
