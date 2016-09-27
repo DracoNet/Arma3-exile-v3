@@ -1304,6 +1304,7 @@ class CfgExileEnvironment
 		{
 			// 1 = enabled, 0 = disabled
 			enable = 0;
+			surfaces[] = {"#nam_snow"};
 
 			// https://community.bistudio.com/wiki/surfaceType
 			surfaces[] = {};
@@ -1340,7 +1341,7 @@ class CfgExileEnvironment
 			*/
 			contaminatedZones[] =
 			{
-				{{6602.26,	1756.14,	207}, 	50, 	250}
+				{{6602.26,	1756.14,	2.74}, 	50, 	200}
 			};
 		};
 

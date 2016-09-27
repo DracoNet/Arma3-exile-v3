@@ -6,35 +6,43 @@ class CUPVehicles
 	{
 		"CUP_C_UAZ_Open_TK_CIV",
 		"CUP_C_UAZ_Unarmed_TK_CIV",
+	/*	
 		"CUP_O_UAZ_AGS30_CHDKZ",
 		"CUP_O_UAZ_AGS30_RU",
 		"CUP_O_UAZ_AGS30_TKA",
+	*/
 		"CUP_O_UAZ_MG_CHDKZ",
 		"CUP_O_UAZ_MG_RU",
 		"CUP_O_UAZ_MG_TKA",
 		"CUP_O_UAZ_Open_CHDKZ",
 		"CUP_O_UAZ_Open_RU",
 		"CUP_O_UAZ_Open_TKA",
+	/*	
 		"CUP_O_UAZ_SPG9_CHDKZ",
 		"CUP_O_UAZ_SPG9_RU",
 		"CUP_O_UAZ_SPG9_TKA",
+	*/
 		"CUP_O_UAZ_Unarmed_CHDKZ",
 		"CUP_O_UAZ_Unarmed_RU",
 		"CUP_O_UAZ_Unarmed_TKA",
+	/*
 		"CUP_B_UAZ_AGS30_ACR",
 		"CUP_B_UAZ_AGS30_CDF",
+	*/
 		"CUP_B_UAZ_MG_ACR",
 		"CUP_B_UAZ_MG_CDF",
 		"CUP_B_UAZ_Open_ACR",
 		"CUP_B_UAZ_Open_CDF",
+	/*
 		"CUP_B_UAZ_SPG9_ACR",
 		"CUP_B_UAZ_SPG9_CDF",
+	*/
 		"CUP_B_UAZ_Unarmed_ACR",
 		"CUP_B_UAZ_Unarmed_CDF",
-		"CUP_I_UAZ_AGS30_UN",
+		//"CUP_I_UAZ_AGS30_UN",
 		"CUP_I_UAZ_MG_UN",
 		"CUP_I_UAZ_Open_UN",
-		"CUP_I_UAZ_SPG9_UN",
+		//"CUP_I_UAZ_SPG9_UN",
 		"CUP_I_UAZ_Unarmed_UN",
 		"CUP_B_Ural_CDF",
 		"CUP_B_Ural_Empty_CDF",
@@ -42,7 +50,7 @@ class CUPVehicles
 		"CUP_B_Ural_Reammo_CDF",
 		"CUP_B_Ural_Refuel_CDF",
 		"CUP_B_Ural_Repair_CDF",
-		"CUP_B_Ural_ZU23_CDF",
+		//"CUP_B_Ural_ZU23_CDF",
 		"CUP_O_Ural_CHDKZ",
 		"CUP_O_Ural_Empty_CHDKZ",
 		"CUP_O_Ural_Empty_RU",
@@ -67,11 +75,13 @@ class CUPVehicles
 		"CUP_O_Ural_Repair_TKA",
 		"CUP_O_Ural_SLA",
 		"CUP_O_Ural_TKA",
+	/*
 		"CUP_O_Ural_ZU23_CHDKZ",
 		"CUP_O_Ural_ZU23_RU",
 		"CUP_O_Ural_ZU23_SLA",
 		"CUP_O_Ural_ZU23_TKA",
 		"CUP_O_Ural_ZU23_TKM",
+	*/
 		"CUP_C_Ural_Civ_01",
 		"CUP_C_Ural_Civ_02",
 		"CUP_C_Ural_Civ_03",
@@ -82,8 +92,10 @@ class CUPVehicles
 		"CUP_I_Ural_Reammo_UN",
 		"CUP_I_Ural_Repair_UN",
 		"CUP_I_Ural_UN",
+	/*
 		"CUP_I_Ural_ZU23_NAPA",
 		"CUP_I_Ural_ZU23_TK_Gue",
+	*/
 		"CUP_C_Datsun",
 		"CUP_C_Datsun_4seat",
 		"CUP_C_Datsun_Covered",
@@ -97,6 +109,7 @@ class CUPVehicles
 		"CUP_O_Datsun_PK_Random",
 		"CUP_C_LR_Transport_CTK",
 		"CUP_B_M1030",
+	/*
 		"CUP_BAF_Jackal2_GMG_D",
 		"CUP_BAF_Jackal2_GMG_W",
 		"CUP_BAF_Jackal2_L2A1_D",
@@ -105,12 +118,15 @@ class CUPVehicles
 		"CUP_B_Dingo_GL_Des",
 		"CUP_B_Dingo_GL_Wdl",
 		"CUP_B_Dingo_Wdl",
+	*/
 		"CUP_B_HMMWV_AGS_GPK_ACR",
 		"CUP_B_HMMWV_Ambulance_ACR",
 		"CUP_B_HMMWV_Ambulance_USA",
 		"CUP_B_HMMWV_Ambulance_USMC",
+	/*
 		"CUP_B_HMMWV_Avenger_USA",
 		"CUP_B_HMMWV_Avenger_USMC",
+	*/
 		"CUP_B_HMMWV_Crows_M2_USA",
 		"CUP_B_HMMWV_Crows_MK19_USA",
 		"CUP_B_HMMWV_DSHKM_GPK_ACR",
@@ -134,8 +150,10 @@ class CUPVehicles
 		"CUP_B_LR_Ambulance_GB_W",
 		"CUP_B_LR_MG_CZ_W",
 		"CUP_B_LR_MG_GB_W",
+	/*
 		"CUP_B_LR_Special_CZ_W",
 		"CUP_B_LR_Special_Des_CZ_D",
+	*/
 		"CUP_B_LR_Transport_CZ_D",
 		"CUP_B_LR_Transport_CZ_W",
 		"CUP_B_LR_Transport_GB_D",
@@ -143,13 +161,16 @@ class CUPVehicles
 		"CUP_O_LR_Ambulance_TKA",
 		"CUP_O_LR_MG_TKA",
 		"CUP_O_LR_MG_TKM",
+	/*
 		"CUP_O_LR_SPG9_TKA",
 		"CUP_O_LR_SPG9_TKM",
+	*/
 		"CUP_O_LR_Transport_TKA",
 		"CUP_O_LR_Transport_TKM",
 		"CUP_I_LR_Transport_RACS",
 		"CUP_I_LR_MG_RACS",
-		"CUP_I_LR_Ambulance_RACS",            
+		"CUP_I_LR_Ambulance_RACS",   
+	/*
 		"CUP_I_BRDM2_ATGM_NAPA",
 		"CUP_I_BRDM2_ATGM_TK_Gue",
 		"CUP_I_BRDM2_HQ_NAPA",
@@ -168,7 +189,9 @@ class CUPVehicles
 		"CUP_O_BRDM2_SLA",
 		"CUP_O_BRDM2_TKA",
 		"CUP_B_BRDM2_ATGM_CDF",
+	*/
 		"CUP_B_BRDM2_CDF",
+	/*
 		"CUP_B_BRDM2_HQ_CDF",
 		"CUP_B_LAV25M240_USMC",
 		"CUP_B_LAV25_HQ_USMC",
@@ -178,9 +201,12 @@ class CUPVehicles
 		"CUP_O_BM21_RU",
 		"CUP_O_BM21_SLA",
 		"CUP_O_BM21_TKA",
+	*/
 		"CUP_O_BTR60_TK",
 		"CUP_O_BTR90_HQ_RU",
+	/*
 		"CUP_O_BTR90_RU",
+	*/
 		"CUP_C_Octavia_CIV",
 		"CUP_C_Skoda_Red_Civ",
 		"CUP_C_Skoda_White_Civ",
@@ -199,6 +225,7 @@ class CUPVehicles
 		"CUP_C_Golf4_camodark_Civ",
 		"CUP_C_Golf4_reptile_Civ",
 		"CUP_C_Golf4_kitty_Civ",
+	/*
 		"CUP_B_M1126_ICV_M2_Desert",
 		"CUP_B_M1126_ICV_M2_Desert_Slat",
 		"CUP_B_M1126_ICV_M2_Woodland",
@@ -227,6 +254,7 @@ class CUPVehicles
 		"CUP_B_M1135_ATGMV_Desert_Slat",
 		"CUP_B_M1135_ATGMV_Woodland",
 		"CUP_B_M1135_ATGMV_Woodland_Slat",
+	*/
 		"CUP_B_TowingTractor_USMC"
 	};
 };
@@ -237,7 +265,7 @@ class CUPTracked
 	icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 	items[]=
 	{	
-        "CUP_B_AAV_USMC",
+        //"CUP_B_AAV_USMC",
 		"CUP_B_M113_Med_USA",
 		"CUP_B_M113_USA",
 		"CUP_I_M113_Med_RACS",
@@ -246,7 +274,8 @@ class CUPTracked
 		"CUP_I_M113_UN",
 		"CUP_O_M113_Med_TKA",
 		"CUP_O_M113_TKA",
-		"CUP_B_M163_USA",
+		"CUP_B_M163_USA"
+	/*	
 		"CUP_I_M163_RACS",
 		"CUP_B_M1A1_DES_USMC",
 		"CUP_B_M1A1_DES_US_Army",
@@ -281,6 +310,7 @@ class CUPTracked
 		"CUP_I_T34_NAPA",
 		"CUP_I_T34_TK_GUE",
 		"CUP_O_T34_TKA"
+	*/
 	};
 };
 
@@ -290,13 +320,16 @@ class CUPChoppers
 	icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 	items[]=
 	{	
+	/*
 		"CUP_B_AH1Z",
 		 // "CUP_B_AH1Z_14RndHydrax",
 		"CUP_B_AH1Z_7RndHydra",
 		"CUP_B_AH1Z_AT",
 		"CUP_B_AH1Z_Escort",
 		"CUP_B_AH1Z_NOAA",
+	*/
 		"CUP_B_AH1Z_NoWeapons",
+	/*
 		"CUP_B_AH1_AT_BAF",
 		"CUP_B_AH1_BAF",
 		"CUP_B_AH1_ES_BAF",
@@ -308,6 +341,7 @@ class CUPChoppers
 		"CUP_B_AH64D_NO_USA",
 		"CUP_B_AH64D_USA",
 		"CUP_B_AW159_Armed_BAF",
+	*/
 		"CUP_B_AW159_Unarmed_BAF",
 		"CUP_B_CH47F_GB",
 		"CUP_B_CH47F_USA",
@@ -333,18 +367,19 @@ class CUPChoppers
 		"CUP_B_UH60M_Unarmed_FFV_US",
 		"CUP_B_UH60M_Unarmed_US",
 		"CUP_O_Mi8_CHDKZ",
-		"CUP_O_Mi8_RU",
+		//"CUP_O_Mi8_RU",
 		"CUP_O_Mi8_SLA_1",
-		"CUP_O_Mi8_SLA_2",
+		//"CUP_O_Mi8_SLA_2",
 		"CUP_O_Mi8_medevac_CHDKZ",
 		"CUP_O_Mi8_medevac_RU",
-		"CUP_B_Mi171Sh_ACR",
+		//"CUP_B_Mi171Sh_ACR",
 		"CUP_B_Mi171Sh_Unarmed_ACR",
 		"CUP_B_Mi17_CDF",
 		"CUP_B_Mi17_medevac_CDF",
 		"CUP_I_Mi17_UN",
 		"CUP_O_Mi17_TK",
 		"CUP_C_Mi17_Civilian_RU",
+	/*
 		"CUP_B_Mi24_D_CDF",
 		"CUP_I_Mi24_D_ION",
 		"CUP_I_Mi24_D_UN",
@@ -352,6 +387,7 @@ class CUPChoppers
 		"CUP_O_Mi24_P_RU",
 		"CUP_O_Mi24_V_RU",
 		"CUP_B_Mi35_CZ",
+	*/
 		"CUP_O_UH1H_TKA",
 		"CUP_I_UH1H_TK_GUE",
 		"CUP_B_UH1D_GER_KSK",
@@ -359,16 +395,20 @@ class CUPChoppers
 		"CUP_B_Merlin_HC3_GB",
 		"CUP_B_Merlin_HC3A_GB",
 		"CUP_B_AW159_Unarmed_GB",
+	/*
 		"CUP_B_AW159_Hellfire_GB",
 		"CUP_B_AW159_Cannon_GB",
+	*/
 		"CUP_B_SA330_Puma_HC1_BAF",
 		"CUP_B_SA330_Puma_HC2_BAF",
 		"CUP_I_SA330_Puma_HC1_RACS",
-		"CUP_I_SA330_Puma_HC2_RACS",
+		"CUP_I_SA330_Puma_HC2_RACS"
+	/*
 		"CUP_O_KA50_SLA",
 		"CUP_O_KA50_AA_SLA",
 		"CUP_O_KA50_RU",
 		"CUP_O_KA50_AA_RU"
+	*/
 	};
 };
 
@@ -381,6 +421,7 @@ class CUPPlanes
 		"CUP_C_C47_CIV",
 		"CUP_C_DC3_CIV",
 		"CUP_B_MV22_USMC",
+	/*
 		"CUP_B_A10_AT_USA",
 		"CUP_B_A10_CAS_USA",
 		"CUP_B_Su25_CDF",
@@ -389,6 +430,7 @@ class CUPPlanes
 		"CUP_O_Su25_RU_3",
 		"CUP_O_Su25_SLA",
 		"CUP_O_Su25_TKA",
+	*/
 		"CUP_B_C130J_USMC",
 		"CUP_B_C130J_Cargo_USMC",
 		"CUP_B_C130J_GB",
@@ -398,7 +440,8 @@ class CUPPlanes
 		"CUP_I_C130J_RACS",
 		"CUP_I_C130J_Cargo_RACS",
 		"CUP_O_C130J_TKA",
-		"CUP_O_C130J_Cargo_TKA",
+		"CUP_O_C130J_Cargo_TKA"
+	/*
 		"CUP_B_F35B_AA_USMC",
 		"CUP_B_F35B_CAS_USMC",
 		"CUP_B_F35B_LGB_USMC",
@@ -425,6 +468,7 @@ class CUPPlanes
 		"CUP_I_SU34_AGM_AAF",
 		"CUP_B_SU34_LGB_CDF",
 		"CUP_B_SU34_AGM_CDF"
+	*/
 	};
 };	
 
