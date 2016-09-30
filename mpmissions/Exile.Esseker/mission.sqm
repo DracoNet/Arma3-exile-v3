@@ -112,7 +112,7 @@ class Mission
     };
     class Entities
     {
-        items = 17;
+        items = 22;
  
         class Item0
         {
@@ -1653,6 +1653,73 @@ class Mission
 			text = "";
 			type = "ExileSpawnZoneIcon";
 			id = 116;
+			atlOffset = 0;
+		};
+		class Item17
+		{
+			dataType = "Marker";
+			position[] = {7650.09, 0, 6971.17};
+			name = "ExileMarker17";
+			text = "";
+			markerType = "ELLIPSE";
+			type = "ExileConcreteMixerZone";
+			colorName = "ColorBlack";
+			fillName = "Border";
+			alpha = 0;
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+			id = 117;
+			atlOffset = 0;
+		};
+		class Item18
+		{
+			dataType = "Marker";
+			position[] = {7650.09, 0, 6971.17};
+			name = "ExileMarker18";
+			text = "";
+			type = "ExileConcreteMixerZoneIcon";
+			id = 118;
+			atlOffset = 0;
+		};
+		class Item19
+		{
+			dataType = "Marker";
+			position[] = {3757.82, 0, 4374.89};
+			name = "ExileMarker19";
+			text = "";
+			markerType = "ELLIPSE";
+			type = "ExileConcreteMixerZone";
+			colorName = "ColorBlack";
+			fillName = "Border";
+			alpha = 0;
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+			id = 119;
+			atlOffset = 0;
+		};
+		class Item20
+		{
+			dataType = "Marker";
+			position[] = {3757.82, 0, 4374.89};
+			name = "ExileMarker20";
+			text = "";
+			type = "ExileConcreteMixerZoneIcon";
+			id = 120;
+			atlOffset = 0;
+		};
+		/////////////////////////////////////////
+        //Radiation Icon
+        /////////////////////////////////////////
+		class Item21
+		{
+			dataType = "Marker";
+			position[] = {6602.26, 0, 1756.14};
+			name = "ContaminatedZoneGhostHotelIcon";
+			text = "";
+			type = "ExileContaminatedZoneIcon";
+			id = 121;
 			atlOffset = 0;
 		};
     };

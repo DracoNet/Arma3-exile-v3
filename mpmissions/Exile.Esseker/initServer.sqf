@@ -6,7 +6,7 @@
 ExileRouletteChairs = [];
 ExileRouletteChairPositions = [];
 
-// 113 Vehicles
+// 112 Vehicles
 private _vehicles = [
 ["Exile_Sign_TraderCity", [6660.75, 3564.63, 249.778], [-0.696467, 0.717589, 0], [0, 0, 1], false],
 ["MetalBarrel_burning_F", [6674.44, 3557.95, 247.995], [-0.991726, 0.105667, 0.0729013], [0.0731366, -0.00165145, 0.997321], true],
@@ -28,7 +28,6 @@ private _vehicles = [
 ["Exile_Sign_Locker", [6696.92, 3876.27, 254.103], [-0.0290828, 0.999577, 0], [0, 0, 1], false],
 ["Exile_Sign_WasteDump", [6639.74, 3911.84, 259.733], [0.0977782, 0.995208, 0], [0, 0, 1], false],
 ["Exile_Sign_Vehicles", [6734.75, 3890.54, 250.921], [0.193547, 0.981091, 0], [0, 0, 1], false],
-["Land_HelipadEmpty_F", [6739.99, 3911.11, 252.691], [0, 1, 0], [0, 0, 1], true],
 ["Exile_Sign_VehicleCustoms", [6724.69, 3902.14, 253.001], [0.708538, 0.705673, 0], [0, 0, 1], false],
 ["Exile_Sign_Food", [6685.63, 3913.77, 261.429], [-0.999813, 0.0193117, 0], [0, 0, 1], false],
 ["Land_Shoot_House_Wall_Long_Prone_F", [6675.85, 3921.97, 268.708], [-0.999853, 0.00483206, 0.0164234], [0.0164228, -0.00015716, 0.999865], false],
@@ -102,7 +101,6 @@ private _vehicles = [
 ["Exile_Sign_Hardware", [6632.87, 3843.61, 243.432], [0.680987, -0.732296, 0], [0, 0, 1], false],
 ["Land_WaterCooler_01_old_F", [6636.65, 3839.17, 243.097], [-0.00870202, -0.999961, -0.00160682], [-1.32884e-005, -0.00160677, 0.999999], false],
 ["Exile_Sign_Equipment", [6623.11, 3852.07, 243.707], [0.00608823, 0.999981, 0], [0, 0, 1], false],
-["Land_HelipadEmpty_F", [6638.18, 3878.22, 254.994], [0, 0.999999, -0.00162316], [0, 0.00162316, 0.999999], true],
 ["Exile_Sign_BoatAndDiving_Small", [5722.99, 5431.12, 1.66963], [0.999998, -0.00181393, 0], [0, 0, 1], false],
 ["Target_PopUp_Moving_Acc2_F", [6813.94, 5189.97, 176.017], [0.403304, 0.915066, -4.34963e-006], [0.00160295, -0.000701728, 0.999998], false],
 ["Target_PopUp2_Moving_Acc1_F", [6813.11, 5190.34, 176.008], [0.406099, 0.913829, -2.09542e-006], [0.00160677, -0.000711742, 0.999998], false],
@@ -119,8 +117,9 @@ private _vehicles = [
 ["Land_Camping_Light_off_F", [6691.01, 3878.44, 252.885], [0, 1, 0], [0.00109178, 0, 0.999999], true],
 ["Land_Camping_Light_off_F", [6695.09, 3877.14, 252.874], [0, 1, 0], [0, 0, 1], true],
 ["Land_Camping_Light_off_F", [6710, 3877.18, 253.698], [0, 1, 0], [0.00109941, 0, 0.999999], true],
-["Land_HelipadEmpty_F", [6556.88, 3919.48, 254.738], [0, 1, 0], [0, 0, 1], true],
-["Land_HelipadSquare_F", [6556.36, 3919.12, 254.737], [0, 1, 0], [0, 0, 1], true]
+["Exile_ConcreteMixer", [6742.09, 3877.31, 248.047], [-0.0229074, -0.997576, -0.0657069], [0.0555322, -0.0668923, 0.996214], true],
+["Exile_ConcreteMixer", [7655.11, 6975.35, 73.1892], [0.055299, -0.998467, -0.00236451], [0.00749312, -0.00195307, 0.99997], true],
+["Exile_ConcreteMixer", [3762.02, 4376.13, 119.569], [-0.940392, -0.340089, 0.00159063], [0.00169146, 0, 0.999999], true]
 ];
 
 {
@@ -139,7 +138,7 @@ private _vehicles = [
 }
 forEach _vehicles;
 
-// 778 Simple Objects
+// 784 Simple Objects
 private _invisibleSelections = ["zasleh", "zasleh2", "box_nato_grenades_sign_f", "box_nato_ammoord_sign_f", "box_nato_support_sign_f"];
 private _simpleObjects = [
 ["a3\structures_f\walls\cncbarrier_f.p3d", [6662.85, 3565.04, 248.406], [-0.704341, 0.709862, 0], [0, 0, 1]],
@@ -399,6 +398,7 @@ private _simpleObjects = [
 ["ca\misc\fuel_tank_big.p3d", [6721.68, 3913.14, 254.499], [0.987853, -0.136752, -0.073789], [0.0626114, -0.0843132, 0.99447]],
 ["a3\structures_f\ind\fuelstation\fuelstation_feed_f.p3d", [6719.96, 3906.38, 253.721], [0.998281, -0.0586076, 0], [0, 0, 1]],
 ["a3\structures_f\ind\fuelstation\fuelstation_feed_f.p3d", [6720.07, 3907.9, 253.837], [0.998281, -0.0586076, 0], [0, 0, 1]],
+["a3\structures_f\mil\helipads\helipadempty_f.p3d", [6739.99, 3911.11, 252.691], [0, 1, 0], [0, 0, 1]],
 ["a3\structures_f_epa\items\tools\fireextinguisher_f.p3d", [6727.04, 3909.54, 253.289], [0, 0.994911, 0.10076], [-0.000976562, -0.10076, 0.99491]],
 ["a3\structures_f_heli\civ\constructions\weldingtrolley_01_f.p3d", [6726.35, 3909.46, 253.592], [-0.201102, -0.974432, -0.1002], [-0.00979602, -0.100284, 0.994911]],
 ["a3\structures_f_heli\civ\constructions\gastank_02_f.p3d", [6725.87, 3910.08, 253.829], [0, 0.994911, 0.100759], [0.0615858, -0.100568, 0.993022]],
@@ -746,6 +746,7 @@ private _simpleObjects = [
 ["ca\buildings\podesta_1_stairs4.p3d", [6563.8, 3929.68, 253.098], [-8.74228e-008, -1, 0], [0, 0, 1]],
 ["ca\buildings\podesta_1_stairs4.p3d", [6565.78, 3929.68, 253.11], [-8.74228e-008, -1, 0], [0, 0, 1]],
 ["a3\structures_f_exp\industrial\port\walkover_01_f.p3d", [6568.17, 3923.82, 254.917], [1, -0.000245972, 0], [0, 0, 1]],
+["a3\structures_f\mil\helipads\helipadsquare_f.p3d", [6556.76, 3919.26, 254.738], [0, 1, 0], [0, 0, 1]],
 ["a3\structures_f\ind\fuelstation_small\fs_feed_f.p3d", [6582.08, 3915.82, 251.784], [0, 1, 0], [0, 0, 1]],
 ["a3\structures_f\ind\fuelstation_small\fs_feed_f.p3d", [6556.41, 3918.26, 253.847], [0, 1, 0], [0, 0, 1]],
 ["a3\structures_f_heli\ind\airport\mobilelandingplatform_01_f.p3d", [6570.8, 3930.79, 253.039], [0.0150428, -0.99876, -0.0474615], [0, -0.0474669, 0.998873]],
@@ -887,6 +888,7 @@ private _simpleObjects = [
 ["a3\structures_f\mil\bagfence\bagfence_long_f.p3d", [6621.66, 3852.12, 242.793], [0, 0.999999, -0.00161945], [0, 0.00161945, 0.999999]],
 ["a3\structures_f\mil\bagfence\bagfence_long_f.p3d", [6620.02, 3853.39, 242.791], [0.998076, 0.0619789, -0.00161106], [0.00160772, 0.000103773, 0.999999]],
 ["a3\structures_f\mil\bagfence\bagfence_long_f.p3d", [6627.35, 3856.23, 242.74], [0.999982, 0.00583317, -0.00161063], [0.00161058, 1.30764e-005, 0.999999]],
+["a3\structures_f\mil\helipads\helipadempty_f.p3d", [6638.18, 3878.22, 254.994], [0, 0.999999, -0.00161945], [0, 0.00161945, 0.999999]],
 ["a3\structures_f\ind\fuelstation_small\fs_feed_f.p3d", [6638.29, 3877.77, 254.111], [0, 1, 0], [0, 0, 1]],
 ["a3\structures_f\mil\helipads\helipadempty_f.p3d", [5749.52, 5472.39, -0.0138807], [0, 1, 0], [0, 0, 1]],
 ["a3\structures_f_heli\civ\constructions\gastank_01_blue_f.p3d", [5730.79, 5439.36, 1.54326], [0, 0.999994, 0.00350409], [-0.00336524, -0.00350407, 0.999988]],
@@ -919,7 +921,10 @@ private _simpleObjects = [
 ["a3\structures_f\items\valuables\money_f.p3d", [6690.84, 3878.29, 252.898], [-0.436259, -0.899821, 0.0004763], [0.00109178, 0, 0.999999]],
 ["a3\structures_f\items\valuables\money_f.p3d", [6690.86, 3878.58, 252.898], [-0.886518, 0.462693, 0.000967885], [0.00109178, 0, 0.999999]],
 ["a3\structures_f\items\valuables\money_f.p3d", [6691.13, 3878.67, 252.897], [0, 1, 0], [0.00109178, 0, 0.999999]],
-["a3\structures_f\items\valuables\money_f.p3d", [6691.31, 3878.43, 252.897], [0.838269, 0.545257, -0.000915207], [0.00109178, 0, 0.999999]]
+["a3\structures_f\items\valuables\money_f.p3d", [6691.31, 3878.43, 252.897], [0.838269, 0.545257, -0.000915207], [0.00109178, 0, 0.999999]],
+["a3\structures_f\items\vessels\waterbarrel_f.p3d", [6743.83, 3878.64, 248.628], [0, 0.997185, 0.0749782], [0.0475207, -0.0748935, 0.996059]],
+["a3\structures_f\items\vessels\waterbarrel_f.p3d", [7655.37, 6977.15, 73.7576], [0, 0.999998, 0.00195312], [0.00749312, -0.00195307, 0.99997]],
+["a3\structures_f\items\vessels\waterbarrel_f.p3d", [3760, 4375.31, 120.139], [0, 1, 0], [0.00169146, 0, 0.999999]]
 ];
 
 {
