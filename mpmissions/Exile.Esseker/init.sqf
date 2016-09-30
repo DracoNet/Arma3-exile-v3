@@ -10,7 +10,8 @@
 [] execVM "custom\EnigmaRevive\init.sqf";
 
 if (isServer) then {
-	[] execVM "custom\safezones.sqf";
+	//[] execVM "custom\safezones.sqf";
+	[] execVM "custom\objects.sqf";
 };
 
 // Disable Radio Chatter

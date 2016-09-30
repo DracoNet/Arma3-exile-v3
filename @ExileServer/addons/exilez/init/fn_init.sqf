@@ -261,8 +261,8 @@ Trigger_6 = [				 //Radiation Trigger
 /* 13 Zombie group */        BossHardcore,           
 /* 14 Avoid Territory */     false,              
 /* 15 Mission Radius */      0,                  
-/* 16 Mission SQF */         nil,                
-/* 17 Loot Box */            nil    
+/* 16 Mission SQF */         triggerMission,                
+/* 17 Loot Box */            triggerLootbox   
 ];
 // List all the trigger group to use here.
 Triggers = [Trigger_1,Trigger_2,Trigger_3,Trigger_4,Trigger_5,Trigger_6];

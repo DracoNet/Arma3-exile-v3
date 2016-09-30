@@ -23,7 +23,7 @@ NoMansLand = [
 ];                      
                         
 Mission = [             
-[11205,8717,150]        // Mission
+//[11205,8717,150]        // Mission
 ];
 
 

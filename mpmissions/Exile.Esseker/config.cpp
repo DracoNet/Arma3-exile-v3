@@ -1267,7 +1267,7 @@ class CfgExileEnvironment
 			water = -5;
 		};
 	};
-	
+
 	class Esseker: Altis
 	{
 		class FireFlies: FireFlies
@@ -1304,7 +1304,6 @@ class CfgExileEnvironment
 		{
 			// 1 = enabled, 0 = disabled
 			enable = 0;
-			surfaces[] = {"#nam_snow"};
 
 			// https://community.bistudio.com/wiki/surfaceType
 			surfaces[] = {};
@@ -1339,9 +1338,8 @@ class CfgExileEnvironment
 	            |------------------------|------------------------------|
 	            1        1      1        1     0.75    0.5     0.25    0
 			*/
-			contaminatedZones[] =
-			{
-				{{6602.26,	1756.14,	2.74}, 	50, 	200}
+			contaminatedZones[] = {
+				{{6602.26,	1756.14,	400.338}, 	50, 	200}
 			};
 		};
 
@@ -1511,7 +1509,7 @@ class CfgExileMobileXM8
 	 * Add the 4 digit permission code here, so players can authorize
 	 * your server to send them messages to their Mobile XM8 app.
 	 */
-	code = "BMIM";
+	code = "";
 };
 class CfgExileMusic
 {
