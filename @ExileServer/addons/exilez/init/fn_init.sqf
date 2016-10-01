@@ -1,10 +1,10 @@
 // ExileZ 2.0 by Patrix87 of http:\\multi-jeux.quebec //
 #include "code\pre_init.sqf";
-#include "ZClassesList.sqf";                     //All available classes per group
-#include "ZLoot.sqf";                            //Loot groups
-#include "ZVest.sqf";                            //Vest groups
-#include "ZClasses.sqf";                         //Zombie classes groups
-#include "TriggerPositions.sqf";                 //Trigger positions
+#include "ZClassesList.sqf";                     // All available classes per group
+#include "ZLoot.sqf";                            // Loot groups
+#include "ZVest.sqf";                            // Vest groups
+#include "ZClasses.sqf";                         // Zombie classes groups
+#include "TriggerPositions.sqf";                 // Trigger positions
 // EDIT BELOW
 
 //Global Settings
@@ -32,10 +32,21 @@ ExplosiveType                = "Grenade" ;       // "mini_Grenade" for small alm
 ExplosiveRespect             = 100;              // Bonus respect for Exploding zombies
 
 //Killing zombies settings
-EnableMoneyOnKill            = true;             // Self Explanatory
-EnableRespectOnKill          = true;             // Self Explanatory
+EnableMoneyOnPlayer          = false;            // Money goes directly on killer
+EnableMoneyOnCorpse          = true;             // Money stays on corpse for looting
 ZombieMoney                  = 5;                // Money per zombie kill
+ZombieMaxMoney               = 15;               // Max Money per zombie kill-random amount put on corpses
+
+EnableStatKill				 = true;			 // Enable stat tracking for Kills DB entry
+EnableZombieStatKill         = false;			 // Enable stat tracking for ZedKills DB entry
+
+EnableRankChange			 = false;			 // Enable Rank change
+EnableHumanityChange		 = false;			 // Enable GR8's Humanity change
+ExileZombieKillRankChange	 = 5;				 // Both Rank and Humanity are dependant on this config
+
+EnableRespectOnKill          = true;             // Self Explanatory
 ZombieRespect                = 10;               // Respect per zombie kill
+
 RoadKillBonus                = 10;               // Bonus Respect if roadkill
 MinDistance                  = 50;               // Minimal distance for range bonus
 CqbDistance                  = 10;               // Minimal ditance for close quarter bonus
@@ -76,36 +87,37 @@ _ryanzombiescivilianattacks            = -1;     // Attack civilians
 _Ryanzombieslogicroam                  = -1;     // Roam ***roaming can be heavy on cpu
 _Ryanzombieslogicroamdemon             = -1;     // Demon Roam
                                                  
-_Ryanzombiesjump                       = -1;     //Jumping Zombies
-_Ryanzombiesjumpdemon                  = 1;      //Jumping Demons
-                                                 
-_Ryanzombiesfeed                       = -1;     //Feeding Zombies
-_Ryanzombiesfeeddemon                  = 1;      //Feeding Demons
-                                                 
-_Ryanzombiesinfection                  = -1;     //Enable infections *(-1 to disable)
-_ryanzombiesinfectedchance             = 1;     //Precent chances to be infected on hit
-_ryanzombiesinfectedrate               = 0.05;   //Damage per minute when infected (+/- 30 minutes to live)
-_ryanzombiesinfectedsymptoms           = 0.7;    //Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
-_ryanzombiesinfecteddeath              = 0.9;    //0.9 = Scream on death 0.7 = Silent death
-_ryanzombiesantivirusduration          = 300;    //Antivirus duration *(5 minutes)
+_Ryanzombiesjump                       = -1;     // Jumping Zombies
+_Ryanzombiesjumpdemon                  = 1;      // Jumping Demons
+                                                    
+_Ryanzombiesfeed                       = -1;     // Feeding Zombies
+_Ryanzombiesfeeddemon                  = 1;      // Feeding Demons
+                                                    
+_Ryanzombiesinfection                  = -1;     // Enable infections *(-1 to disable)
+_ryanzombiesinfectedchance             = 10;     // Precent chances to be infected on hit
+_ryanzombiesinfectedrate               = 0.05;   // Damage per minute when infected (+/- 30 minutes to live)
+_ryanzombiesinfectedsymptoms           = 0.9;    // Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
+_ryanzombiesinfecteddeath              = 0.9;    // 0.9 = Scream on death 0.7 = Silent death
+_ryanzombiesantivirusduration          = 300;    // Antivirus duration *(5 minutes)
 
 //http://steamcommunity.com/sharedfiles/filedetails/?id=614815221 must be installed on the client for the cure to work
 //You also need to overide an Exile script, Details here : http://www.exilemod.com/topic/10999-rz-infection-for-exile/
 
-_ryanzombiesmovementspeedwalker        = 1;      //Animation speed for walker zombies
-_ryanzombiesmovementspeedslow          = 1;      //Animation speed for slow zombies
-_ryanzombiesmovementspeedmedium        = 1;      //Animation speed for medium zombies
-_ryanzombiesmovementspeedfast          = 1;      //Animation speed for fast zombies
-_ryanzombiesmovementspeeddemon         = 1;      //Animation speed for demons
-_ryanzombiesmovementspeedspider        = 1;      //Animation speed for spider
-_ryanzombiesmovementspeedcrawler       = 1;      //Animation speed for crawler
+_ryanzombiesmovementspeedwalker        = 1;      // Animation speed for walker zombies
+_ryanzombiesmovementspeedslow          = 1;      // Animation speed for slow zombies
+_ryanzombiesmovementspeedmedium        = 1;      // Animation speed for medium zombies
+_ryanzombiesmovementspeedfast          = 1;      // Animation speed for fast zombies
+_ryanzombiesmovementspeeddemon         = 1;      // Animation speed for demons
+_ryanzombiesmovementspeedspider        = 1;      // Animation speed for spider
+_ryanzombiesmovementspeedcrawler       = 1;      // Animation speed for crawler
 
 
 //Default Altis SafeZones
 SafeZonePositions =
 [//  [[Coordinates],Radius]  // You can Get the safezone information directly from your mission.sqm under class Markers
-  [[6629.942,3867.75],250],
-  [[7643.019,10152.064],250]
+  [[6657.64,3894.84],194], 	// Main Trader
+  [[5764.4,5455.76],65], 	//Boat Trader
+  [[6812.1,5187.77],50] 	//SpecOps Trader
 ];
 
 UseHarassingZombies          = true;             //
@@ -205,9 +217,9 @@ Trigger_3 = [				 //No Buildings
 Trigger_4 = [				 //No Man Land
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   NoMansLand,       
-/* 2  Max Zombies */         15,                 
-/* 3  Activation Delay */    10,                 
-/* 4  Spawn Delay */         10,                 
+/* 2  Max Zombies */         10,                 
+/* 3  Activation Delay */    15,                 
+/* 4  Spawn Delay */         15,                 
 /* 5  Respawn Delay */       30,                 
 /* 6  Show Trigger On Map */ true,               
 /* 7  Marker Color */        "ColorRed",         
@@ -226,7 +238,7 @@ Trigger_4 = [				 //No Man Land
 Trigger_5 = [				 //Mission Trigger
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   Mission,            
-/* 2  Max Zombies */         20,                 
+/* 2  Max Zombies */         15,                 
 /* 3  Activation Delay */    5,                  
 /* 4  Spawn Delay */         5,                  
 /* 5  Respawn Delay */       5,                  
