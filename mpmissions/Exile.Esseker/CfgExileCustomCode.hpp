@@ -30,5 +30,5 @@ class CfgExileCustomCode
 	// ExAd VirtualGarage
 	ExileServer_system_territory_database_load = "ExAdClient\VirtualGarage\CustomCode\ExileServer_system_territory_database_load.sqf"; 
 	// helipad Spawn TraderZones
-	//ExileServer_system_trading_network_purchaseVehicleRequest = "custom\helipad\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";	
+	ExileServer_system_trading_network_purchaseVehicleRequest = "custom\helipad\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";	
 };

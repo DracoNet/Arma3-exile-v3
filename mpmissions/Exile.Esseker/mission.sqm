@@ -22,12 +22,24 @@ class EditorData
         aside[] = {0.9992851,-4.8790753e-008,0.039012156};
     };
 };
-addons[] = {"exile_client","A3_Ui_F"};
+addons[] = {
+				"exile_client",
+				"A3_Ui_F",
+				"Esseker",
+				"ryanzombies",
+				"ryanzombiesfunctions",
+				"cup_camisc",
+				"cup_cabuildings2_misc_cargo",
+				"cup_buildings_config",
+				"cup_ca_config",
+				"cup_castructures_railway",
+				"cup_misc3_config"
+			};
 class AddonsMetaData
 {
     class List
     {
-        items = 2;
+        items = 3;
         class Item0
         {
             className = "exile_client";
@@ -40,6 +52,11 @@ class AddonsMetaData
             author = "Bohemia Interactive";
             url = "http://www.arma3.com";
         };
+        class Item2
+        {
+            className = "esseker";
+            name = "Esseker";
+        };
     };
 };
 randomSeed = 2218544;
@@ -50,46 +67,6 @@ class ScenarioData
  
 class Mission
 {
-    addOns[]=
-	{
-		"exile_client",
-		"Esseker",
-		"ryanzombies",
-		"ryanzombiesfunctions",
-		"castructureshouse_a_fuelstation_config",
-		"camisc_config",
-		"cabuildings_config",
-		"camisc3_config",
-		"cabuildings2_misc_cargo_config",
-		"camisc_e_config",
-		"mrshounka_a3_308_p",
-		"mrshounka_buggy_p",
-		"mrshounka_chevrolet_avalanche_p",
-		"mr_own_hummer",
-		"mr_own_buggy",
-		"mrshounka_yamaha_p",
-		"mrshounka_lykan_p",
-		"UH1H",
-		"brdm2",
-		"camisc_acr_scaffoldingsmall_config",
-		"castructures_railway_config",
-		"mrshounka_monster_p",
-		"camisc_e_wf_config",
-		"sar_ru_architecture",
-		"castructures_e_misc_misc_market_config",
-		"ind_tank_config",
-		"suv",
-		"rhsusf_vehicles",
-		"rhsusf_c_troops"
-		
-	};
-	addOnsAuto[]=
-	{
-		"exile_client",
-		"ryanzombiesfunctions",
-		"Esseker"
-	};
-	
 	class Intel
     {
         timeOfChanges = 1800.0002;

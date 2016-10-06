@@ -69,7 +69,11 @@ showHUD[] =
 #include "Exile_SM_Towing.hpp"
 #include "CfgRemoteExec.hpp"
 #include "infiSTAR_AdminMenu.hpp"
+// scarCODE ServerInfoMenu
+#include "scarCODE\ServerInfoMenu\hpp\CfgServerInfoMenu.hpp"
+#include "scarCODE\ServerInfoMenu\hpp\RscDisplayServerInfoMenu.hpp"
 
+/*
 class CfgMusic
 {
 	tracks[]={};
@@ -80,6 +84,7 @@ class CfgMusic
 		sound[] = {"\custom\IntroSong.ogg", db+1,1}; 
 	};
 };
+*/
 
 class CfgFunctions
 {

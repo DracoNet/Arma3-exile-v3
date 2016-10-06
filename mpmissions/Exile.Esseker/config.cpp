@@ -1267,13 +1267,17 @@ class CfgExileEnvironment
 			water = -5;
 		};
 	};
-
+	
 	class Esseker: Altis
 	{
+		// A list of {position, radius} where building is not allowed at all
+		nonConstructionZones[] = {};
+
+
 		class FireFlies: FireFlies
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 1;
+			enable = 0;
 
 			// At this hour fire flies begin to spawn
 			startHour = 18;
@@ -1285,7 +1289,7 @@ class CfgExileEnvironment
 		class Anomalies: Anomalies
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 1;
+			enable = 0;
 
 			// At this hour anomalies begin to spawn
 			startHour = 19;
@@ -1309,7 +1313,7 @@ class CfgExileEnvironment
 			surfaces[] = {};
 		};
 
-		class Radiation: Radiation
+		class Radiation: Radiation 
 		{
 			// 1 = enabled, 0 = disabled
 			enable = 1;
@@ -1338,8 +1342,9 @@ class CfgExileEnvironment
 	            |------------------------|------------------------------|
 	            1        1      1        1     0.75    0.5     0.25    0
 			*/
-			contaminatedZones[] = {
-				{{6602.26,	1756.14,	400.338}, 	50, 	200}
+			contaminatedZones[] = 
+			{
+				{{6602.26, 1756.14, 400.338},50,200}	// !
 			};
 		};
 
@@ -1347,7 +1352,7 @@ class CfgExileEnvironment
 		{
 			// Temperature in °C for the time of day, per hour
 			// Add the first index to the last index, so it is 25 indizes!
-			daytimeTemperature[] = {3.93,4.89,6.42,8.40,10.68,13.10,15.48,17.63,19.40,20.66,21.32,21.80,21.80,21.32,20.66,19.40,17.63,15.48,13.10,10.68,8.40,6.42,4.89,3.93,3.93};
+			daytimeTemperature[] = {-1,-1,-1,0,2,5,10,15,20,21,23,25,26,27,26,24,21,20,19,17,14,9,7,5,-1};
 		
 			// Temperature change in °C when it is 100% overcast
 			overcast = -2;
@@ -1362,7 +1367,7 @@ class CfgExileEnvironment
 			altitude = -0.5;
 
 			// Difference from the daytime temperature to the water temperature
-			water = -7;
+			water = -5;
 		};
 	};
 };
