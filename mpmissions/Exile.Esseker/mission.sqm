@@ -33,7 +33,13 @@ addons[] = {
 				"cup_buildings_config",
 				"cup_ca_config",
 				"cup_castructures_railway",
-				"cup_misc3_config"
+				"cup_misc3_config",
+				"castructureshouse_a_fuelstation_config",
+				"camisc_config",
+				"cabuildings_config",
+				"camisc3_config",
+				"cabuildings2_misc_cargo_config",
+				"camisc_e_config"
 			};
 class AddonsMetaData
 {
