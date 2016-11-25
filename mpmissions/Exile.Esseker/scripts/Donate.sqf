@@ -1,7 +1,7 @@
 _playerUID = getPlayerUID Player; //getPlayerUID player;
 _donateUID1 = "76561197973851570"; //Draco
 _donateUID2 = "76561198061637614"; // Dani523d
-_donateUID3 = "UID3"; //
+_donateUID3 = "76561197985959978"; //Emil8x
 _donateUID4 = "UID4"; //
 _donateUID5 = "UID5"; //
 _donateUID6 = "UID6"; //
