@@ -33,7 +33,8 @@ addons[] = {
 				"cup_buildings_config",
 				"cup_ca_config",
 				"cup_castructures_railway",
-				"cup_misc3_config"
+				"cup_misc3_config",
+				"cup_data_baf_config"
 			};
 class AddonsMetaData
 {
