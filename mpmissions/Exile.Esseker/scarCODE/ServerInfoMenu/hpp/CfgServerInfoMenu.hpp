@@ -52,8 +52,8 @@ class CfgServerInfoMenu
          menuName = "Admins";
          title = "ADMINISTRATORS";
          content[] = {
-			 "Dani",
-			 "Draco"
+			 "<t size='1.25'>Owner:</t> Dani<br />",
+			 "<t size='1.25'>Dev:</t> Draco"
 		 };
       };
       class fifth
