@@ -61,15 +61,15 @@ class CfgServerInfoMenu
          menuName = "Scripts";
          title = "INSTALLED SCRIPTS";
          content[] = {
-			 "<t size='1.25'>ExAd</t> by Bjanski",
-			 "<t size='1.25'>Enigma_Exile_Revive</t> by happydayz-enigma",
-			 "<t size='1.25'>DMS_Exile</t>by Defent",
-			 "<t size='1.25'>APOCAirdropAssistanceExile</t> by osuapoc",
-			 "<t size='1.25'>ExileZ-2</t> by patrix87",
-			 "<t size='1.25'>Exile_SM_Towing</t> by StokesMagee",
-			 "<t size='1.25'>StatusBar</t> by CRE4MPIE",
-			 "<t size='1.25'>Server Info Menu</t> by IT07",
-			 "<t size='1.25'>Custom!!!</t> by Draco"
+			 "<t size='1.25'>ExAd</t> by Bjanski<br />",
+			 "<t size='1.25'>Enigma_Exile_Revive</t> by happydayz-enigma<br />",
+			 "<t size='1.25'>DMS_Exile</t>by Defent<br />",
+			 "<t size='1.25'>APOCAirdropAssistanceExile</t> by osuapoc<br />",
+			 "<t size='1.25'>ExileZ-2</t> by patrix87<br />",
+			 "<t size='1.25'>Exile_SM_Towing</t> by StokesMagee<br />",
+			 "<t size='1.25'>StatusBar</t> by CRE4MPIE<br />",
+			 "<t size='1.25'>Server Info Menu</t> by IT07<br />",
+			 "<t size='1.25'>Custom!!!</t> by Draco<br />"
 		 };
       };
       class sixth
@@ -85,8 +85,8 @@ class CfgServerInfoMenu
          menuName = "Credits";
          title = "CREDITS WHERE CREDITS DUE";
          content[] = {
-            "<t size='1.25'>Name:</t> Bjanski, happydayz-enigma, IT07,", 
-			"Defent, osuapoc, patrix87, StokesMagee, CRE4MPIE, Draco",
+            "<t size='1.25'>Name:</t> Bjanski, happydayz-enigma, IT07,<br />", 
+			"Defent, osuapoc, patrix87, StokesMagee, CRE4MPIE, Draco<br />",
 			"</ br>",
 			"And a special thanks for the players on the server."
          };
